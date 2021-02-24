@@ -25,7 +25,7 @@ provider "aws" {
 }
 
 module "webserver_cluster" {
-  source = "github.com/PowerShellJC/Terraform-Test?ref=v0.0.1"
+  source = "github.com/PowerShellJC/Terraform-Test?ref=v0.0.2"
   cluster_name = "webservers-stage"
   instance_type = "t2.micro"
   min_size      = 2
